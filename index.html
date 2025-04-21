@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BotzAcad Summer Camp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom right, #0b1e63, #12249e);
+      color: #fff;
+      padding: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      animation: slideDown 1s ease-out;
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .logo {
+      width: 100px;
+      margin: 0 auto 10px;
+    }
+    .logo img {
+      width: 100%;
+    }
+    .company-name {
+      font-family: 'Fredoka One', cursive;
+      font-size: 3rem;
+      color: #fff200;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-family: 'Fredoka One', cursive;
+      font-size: 3rem;
+      color: #fff200;
+    }
+    header h2 {
+      font-size: 1.5rem;
+      color: #ffe600;
+      margin-top: 10px;
+    }
+    .content {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #fff;
+      color: #111;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .content ul {
+      margin: 20px 0;
+      padding-left: 20px;
+    }
+    .content ul li {
+      margin-bottom: 10px;
+    }
+    .highlight {
+      color: #0b1e63;
+      font-weight: bold;
+    }
+    .offer {
+      font-family: 'Fredoka One', cursive;
+      font-size: 1.2rem;
+      margin-top: 20px;
+      color: #d41d6d;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+    table, th, td {
+      border: 1px solid #333;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .contact {
+      margin-top: 20px;
+    }
+    .contact p, .contact a {
+      color: #fff;
+    }
+    .icons img {
+      width: 100px;
+      margin: 20px auto;
+      display: block;
+    }
+    .whatsapp {
+      color: #25D366;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="BotzAcad Logo">
+    </div>
+    <div class="company-name">BotzAcad</div>
+    <h1>SUMMER CAMP</h1>
+    <h2>Basic Electronics to Arduino Uno with Python</h2>
+  </header>
+
+  <div class="content">
+    <ul>
+      <li>Guide you step-by-step from basic electronic circuits to advanced automation using Arduino Uno</li>
+      <li>Learn to code in Python — no prior knowledge needed</li>
+      <li>Age 10+</li>
+      <li>Practical experience gained through project-based learning at our centre</li>
+      <li>Guided by professionals with subject matter expertise</li>
+    </ul>
+
+    <p class="offer">
+      Sign up for our Summer Camp today and get 3 months of <span class="highlight">FREE</span> access to our lab — <br>
+      Experiment with <span class="highlight">ARDUINO UNO</span> and bring your ideas to life!
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Batch</th>
+          <th>Date</th>
+          <th>Slot I</th>
+          <th>Slot II</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Batch I</td><td>28-April to 2-May</td><td>5 PM - 6 PM</td><td>6 PM - 7 PM</td></tr>
+        <tr><td>Batch II</td><td>5-May to 9-May</td><td>5 PM - 6 PM</td><td>6 PM - 7 PM</td></tr>
+        <tr><td>Batch III</td><td>12-May to 16-May</td><td>5 PM - 6 PM</td><td>6 PM - 7 PM</td></tr>
+        <tr><td>Batch IV</td><td>19-May to 23-May</td><td>5 PM - 6 PM</td><td>6 PM - 7 PM</td></tr>
+        <tr><td>Batch V</td><td>26-May to 30-May</td><td>5 PM - 6 PM</td><td>6 PM - 7 PM</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    <div class="icons">
+      <img src="Phamplet.jpg" alt="BotzAcad Flyer">
+    </div>
+    <div class="contact">
+      <p class="whatsapp">📞 +91 9498 99 88 99 (WhatsApp)</p>
+      <p>📍 No: 36, Old No.195, Y Block, 1st Street, Anna Nagar West, Chennai - 600 040.</p>
+      <p>🌐 <a href="https://www.botzacad.in">www.botzacad.in</a> | 📧 <a href="mailto:mail@botzacad.in">mail@botzacad.in</a></p>
+      <p>🔗 <a href="https://instagram.com/BotzAcad">Instagram: @BotzAcad</a> | <a href="https://facebook.com/BotzAcad">Facebook: BotzAcad</a></p>
+    </div>
+  </footer>
+</body>
+</html>
